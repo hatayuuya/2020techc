@@ -1,0 +1,6 @@
+CREATE TABLE `users` (
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `login_id` TEXT NOT NULL,
+    `password` TEXT NOT NULL,
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
+);
